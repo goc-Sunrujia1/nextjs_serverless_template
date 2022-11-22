@@ -31,6 +31,6 @@ inputs:
           - OUTER
         environment: release
         endpoints:
-          - path: /
-            method: ANY
+          - path: /serverless/fe/template
+            method: get
 
