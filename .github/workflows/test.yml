@@ -15,7 +15,7 @@ jobs:
 
       - name: copy env to .env.production
         run: |
-          cat .env.development > .env.production
+          cat .envProd-GZ > .env.production
           
       - name: Login to sit Tencent Cloud Registry 
         uses: docker/login-action@v2

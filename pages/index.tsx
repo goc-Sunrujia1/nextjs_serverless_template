@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        这是一个部署next.js至腾讯云serverless的githubAction例子
+        这是一个部署next.js至腾讯云serverless的githubAction例子.
         </p>
 
         <div className={styles.grid}>

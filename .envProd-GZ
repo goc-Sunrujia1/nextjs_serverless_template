@@ -1,0 +1,11 @@
+cosBuketUrl=https://sit-fe-static.builtopia.cn
+
+
+REGION=ap-shanghai
+
+REGISTRY_ID=tcr-au6brkpf
+IMAGE_TYPE=enterprise
+IMAGE_URL_PREFIX=gocyber-sh.tencentcloudcr.com 
+
+API_GW_NAME=goc_sit_beta_gw 
+API_GW_ID=service-awjdusi3 
