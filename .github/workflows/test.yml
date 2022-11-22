@@ -32,7 +32,7 @@ jobs:
         with:
           push: true
           context: .
-          file: dockerfile.sit  //按设置打包并推送镜像
+          file: dockerfile 
           tags: gocyber-sh.tencentcloudcr.com/gocyber-fe/dashboard:${{ github.sha }}
  
       - name: Set up serverless  
