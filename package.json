@@ -1,0 +1,29 @@
+{
+  "name": "nextjs_test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build-dev": "next build",
+    "build-hk": "next build && cos up",
+    "build-gz": "next build && cos up",
+    "build-sit": "next build && cos up",
+    "start-dev": "next start",
+    "start-port": "export PORT=9000 && node server.js"
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "coscmd": "^1.0.7",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.9.3"
+  }
+}
